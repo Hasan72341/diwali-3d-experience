@@ -4,7 +4,8 @@ import { useRef, useState } from "react";
 import * as THREE from "three";
 
 // Import the GLTF as a URL so Vite serves it correctly
-import rocketUrl from "../assets/rocket/scene.gltf?url";
+// rocket model served from public/assets
+const rocketUrl = "/assets/rocket/scene.gltf";
 
 export default function Rocket({ start, onExplode }) {
   const ref = useRef();

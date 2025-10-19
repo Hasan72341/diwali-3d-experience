@@ -3,7 +3,8 @@ import { useFrame } from "@react-three/fiber";
 import { useRef } from "react";
 
 // Import the GLTF as a URL so Vite serves it correctly
-import goldenChair from "../assets/golden_india_model/scene.gltf?url";
+// golden chair model served from public/assets
+const goldenChair = "/assets/golden_india_model/scene.gltf";
 
 export default function FloatingOption({ position, color, label, onClick }) {
   const ref = useRef();

@@ -18,8 +18,8 @@ import { useNavigate } from "react-router-dom";
 import * as THREE from "three";
 import Firework from "../components/Firework";
 import FloatingOption from "../components/FloatingOption";
-/* 🪔 Lakshmi GLTF */
-import lakshmiUrl from "../assets/lakshmi_3d_model/scene.gltf?url";
+/* 🪔 Lakshmi GLTF (served from public/assets) */
+const lakshmiUrl = "/assets/lakshmi_3d_model/scene.gltf";
 useGLTF.preload(lakshmiUrl);
 import {
   EffectComposer,
@@ -33,8 +33,8 @@ import { BlendFunction } from "postprocessing";
 const crackleAudio = new Audio("/crackle.mp3");
 crackleAudio.volume = 0.4;
 
-/* 🧱 LaunchPad GLTF model */
-import jumpPadUrl from "../assets/sm_jumppad/scene.gltf?url";
+/* 🧱 LaunchPad GLTF model (served from public/assets) */
+const jumpPadUrl = "/assets/sm_jumppad/scene.gltf";
 useGLTF.preload(jumpPadUrl);
 
 function LaunchPad({ position, onClick }) {
