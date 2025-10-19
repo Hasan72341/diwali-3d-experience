@@ -1,0 +1,11 @@
+Model Information:
+* title:	Golden India Model
+* source:	https://sketchfab.com/3d-models/golden-india-model-8aed09780cf840de8ba7634b2f7174f7
+* author:	Världskulturmuseerna (https://sketchfab.com/varldskulturmuseerna)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Golden India Model" (https://sketchfab.com/3d-models/golden-india-model-8aed09780cf840de8ba7634b2f7174f7) by Världskulturmuseerna (https://sketchfab.com/varldskulturmuseerna) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

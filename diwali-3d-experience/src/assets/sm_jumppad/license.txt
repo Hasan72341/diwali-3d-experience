@@ -1,0 +1,11 @@
+Model Information:
+* title:	SM_JumpPad
+* source:	https://sketchfab.com/3d-models/sm-jumppad-7a41b91af23b4a7db4579677666c7f14
+* author:	KainHunter1997 (https://sketchfab.com/KainHunterDesign)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "SM_JumpPad" (https://sketchfab.com/3d-models/sm-jumppad-7a41b91af23b4a7db4579677666c7f14) by KainHunter1997 (https://sketchfab.com/KainHunterDesign) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
