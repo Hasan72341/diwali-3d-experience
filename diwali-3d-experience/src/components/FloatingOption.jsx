@@ -9,7 +9,7 @@ const goldenChair = "/assets/golden_india_model/scene.gltf";
 export default function FloatingOption({ position, color, label, onClick }) {
   const ref = useRef();
   
-  // Preload the oil lamp model
+  // Preload the golden chair model
   useGLTF.preload(goldenChair);
   const gltf = useGLTF(goldenChair);
   
@@ -20,7 +20,7 @@ export default function FloatingOption({ position, color, label, onClick }) {
 
   return (
     <group ref={ref} position={position} onClick={onClick} style={{ cursor: "pointer" }}>
-      <directionalLight position={[1, 1, 1]} intensity={2} castShadow />
+      <directionalLight position={[1, 1, 1]} intensity={0.6} castShadow />
       <primitive object={gltf.scene.clone()} scale={0.004} />
       <Text position={[-0.2, -1, 0.5]} fontSize={0.3} color="#fff" anchorX="center" anchorY="middle">
         {label}

@@ -24,7 +24,7 @@ const fragmentShader = `
 export default function Firework({ position }) {
   const mesh = useRef();
   const [life, setLife] = useState(0);
-  const count = 220; // fewer for perf
+  const count = 1024; // fewer for perf
 
   const color = useMemo(
     () => new THREE.Color(`hsl(${Math.random() * 360},100%,70%)`),
